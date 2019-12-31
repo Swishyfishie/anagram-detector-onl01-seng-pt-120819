@@ -11,10 +11,10 @@ class Anagram
     final_arr = []
     array.each do |el|
       if @word.split('').sort != el.split('').sort
-        p "IJgifudngdnfignd"
-      else 
         final_arr.push(@word)
         final_arr
+      else 
+        p "ajisdnfiusdn"
       end
     end 
 
