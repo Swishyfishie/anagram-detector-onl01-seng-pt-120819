@@ -8,12 +8,14 @@ class Anagram
   
   
   def match(array) 
-    
-    if reversed_word.split('').sort == word.split('').sort 
-      p "it works"
-      else 
-      p "it doesn't"
+    array.each do |el|
+      if @word.split('').sort == el.split('').sort
     end 
 
-  end 
+  end
+  
+  
+  
+  
+  
 end 
