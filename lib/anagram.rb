@@ -8,6 +8,12 @@ class Anagram
   
   
   def match(array) 
-    if 
+    
+    if reversed_word.split('').sort == word.split('').sort 
+      p "it works"
+      else 
+      p "it doesn't"
+      end 
+
   end 
 end 
