@@ -13,7 +13,7 @@ class Anagram
       p "it works"
       else 
       p "it doesn't"
-      end 
+    end 
 
   end 
 end 
