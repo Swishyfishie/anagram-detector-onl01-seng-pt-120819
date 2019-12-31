@@ -10,18 +10,14 @@ class Anagram
   def match(array) 
     final_arr = []
     array.each do |el|
-      if @word.split('').sort == el.split('').sort
-        final_arr.push(el)
+      if @word.split('').sort != el.split('').sort
         final_arr
       else 
-        nil
+        final_arr.push(@word)
+        final_arr
       end
     end 
 
   end
-  
-  
-  
-  
   
 end 
