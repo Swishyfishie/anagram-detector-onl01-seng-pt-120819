@@ -8,16 +8,7 @@ class Anagram
   
   
   def match(array) 
-    final_arr = []
-    array.each do |el|
-      if @word.split('').sort != el.split('').sort
-        final_arr.push(@word)
-        final_arr
-      else 
-        p "ajisdnfiusdn"
-      end
-    end 
-
+    array.any? {|e| e.split('').sort == @word.split('').sort ? true : false }
   end
   
 end 
