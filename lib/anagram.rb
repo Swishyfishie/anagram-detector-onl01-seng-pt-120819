@@ -14,7 +14,7 @@ class Anagram
         final_arr.push(el)
         final_arr
       else 
-        final_arr
+        nil
       end
     end 
 
